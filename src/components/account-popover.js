@@ -37,7 +37,7 @@ export const AccountPopover = (props) => {
 
     try {
       // This can be call inside AuthProvider component, but we do it here for simplicity
-      await Axios.get('https://your-corner-backend.herokuapp.com/admin/logout',{ withCredentials: true })
+      await Axios.get('http://localhost:8000/admin/logout',{ withCredentials: true })
       .then((res) => {
         console.log(res);
         localStorage.clear();

@@ -11,7 +11,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Customers | Grow Sharp
+        Counsellors | Grow Sharp
       </title>
     </Head>
     <Box

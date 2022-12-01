@@ -54,7 +54,7 @@ const Login = () => {
   const loginAdmin = async (e) => {
     e.preventDefault();
     const data = {email : formik.values.email, password : formik.values.password};
-      await Axios.post('https://your-corner-backend.herokuapp.com/admin/login',data,{withCredentials: true})
+      await Axios.post('http://localhost:8000/admin/login',data,{withCredentials: true})
       .then((res) => {    
         console.log(res);
         localStorage.setItem("token",res.data.token);

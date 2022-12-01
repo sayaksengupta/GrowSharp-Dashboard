@@ -23,7 +23,7 @@ const App = (props) => {
     <CacheProvider value={emotionCache}>
       <Head>
         <title>
-          Material Kit Pro
+          Grow Sharp
         </title>
         <meta
           name="viewport"

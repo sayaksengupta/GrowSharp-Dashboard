@@ -11,7 +11,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Salons | Grow Sharp
+        Students | Grow Sharp
       </title>
     </Head>
     <Box
